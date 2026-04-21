@@ -8,10 +8,9 @@ h1{
 }
 p{
     color: #B0A24C;
-    font-size: 200%;
     align-content: baseline;
 }
-.pris{
+.Pris{
     color: #FF5555;
 }
 
@@ -19,7 +18,6 @@ p{
     max-width: 100%;
     border-radius: 20;
     max-height: 100%;
-    cursor: pointer;
 }
 
 header{
@@ -49,10 +47,10 @@ header{
 }
 
 .köp{
+    cursor: pointer;
+    background-color: 88FF51;
 }
-button{
-    background-color: #88FF51;
-}
+
 
 .varukorg{
     display: flex;
@@ -75,6 +73,10 @@ footer{
 @media screen and (min-width: 1008px)
 
 {  
+    p{
+        font-size: 2.5vw
+    }
+
    .produkt_lista{
     grid-template-columns: repeat(3, 1fr);
     }
@@ -114,11 +116,15 @@ footer{
 
 @media screen and (min-width: 641px)and (max-width: 1007px)
 {
+    p{
+        font-size: 4.7vw
+    }
+
     .produkt_lista{
     grid-template-columns: repeat(2, 1fr);
-}
+    }
 
-body{
+    body{
     display: grid;
     grid-template-columns: 4fr 1fr 4fr;
     grid-template-rows: 10vh 75vh 10vh;
@@ -149,7 +155,11 @@ body{
 }
 
 @media screen and (min-width: 10px)and (max-width: 640px)
-{
+{   
+    p{
+        font-size: 6vw
+    }
+
     .produkt_lista{
     grid-template-columns: repeat(1, 1fr);
     }
@@ -157,7 +167,7 @@ body{
     body{
     display: grid;
     grid-template-columns: 4fr 1fr 4fr;
-    grid-template-rows: 10vh 95vh 10vh;
+    grid-template-rows: 10vh 150vh 10vh;
     background-image: url(./img/RainingProject2long.png);
     }
 

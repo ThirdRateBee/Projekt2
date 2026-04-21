@@ -1,0 +1,1 @@
+const Produkt = div.querySelector(".produkt");
