@@ -11,21 +11,28 @@ p{
     color: #B0A24C;
     align-content: baseline;
 }
+a{
+    color: #B0A24C;
+    align-content: baseline;
+}
 .Pris{
     color: #FF5555;
 }
 
 .paraply{
-    max-width: 90%;
+    max-width: 100%;
     border-radius: 20;
-    max-height: 90%;
 }
 
 header{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: #FAF3CA;
     border-radius: 20px;
+    padding-top: 10%;
+    padding-bottom: 10%;
     text-align: center;
     overflow: hidden;
 }
@@ -42,14 +49,22 @@ header{
     overflow: hidden;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 2%;
+    place-items: center;
     border: solid #D3C677;
     border-radius: 20px
 }
 
 .köp{
     cursor: pointer;
-    background-color: 88FF51;
+    background-color: #88FF51;
+    transform: scale(0.8);
+    transform: scaley(0.8); 
+    padding-left: 20%;
+    padding-right: 20%;
+    border-radius: 20px
+}
+.köp p {
+    color: #FF5555;
 }
 
 
@@ -64,6 +79,7 @@ header{
 footer{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     background-color: #FAF3CA;
     border-radius: 20px;
     text-align: center;
@@ -75,6 +91,9 @@ footer{
 
 {  
     p{
+        font-size: 2.5vw
+    }
+    a{
         font-size: 2.5vw
     }
 
@@ -117,6 +136,9 @@ footer{
     p{
         font-size: 4.7vw
     }
+    a{
+        font-size: 4.7vw
+    }
 
     body{
     display: grid;
@@ -152,6 +174,9 @@ header{
 @media screen and (min-width: 10px)and (max-width: 640px)
 {
     p{
+        font-size: 7.5vw
+    }
+    a{
         font-size: 7.5vw
     }
     
