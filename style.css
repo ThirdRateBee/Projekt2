@@ -100,7 +100,7 @@ footer{
     body{
         display: grid;
         grid-template-columns: 2fr 5fr 2fr;
-        grid-template-rows: 15vh 70vh 10vh;
+        grid-template-rows: 15vh 85vh 10vh;
         background-image: url(./img/RainingProject2.png);
         background-size: cover;
     }
@@ -143,7 +143,7 @@ footer{
     body{
     display: grid;
     grid-template-columns: 4fr 1fr 4fr;
-    grid-template-rows: 10vh 75vh 10vh;
+    grid-template-rows: 10vh 80vh 10vh;
     background-image: url(./img/RainingProject2long.png);
 }
 
